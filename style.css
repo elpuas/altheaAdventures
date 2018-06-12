@@ -21,4 +21,17 @@
     background-size: 100%;
     max-height: 768px !important;
 }
- 
+
+.althea__hero-container .header-content h1 {
+    font-family: var(--font-primary) !important;
+    font-size: 4rem !important;
+    letter-spacing: -2px !important;
+}
+
+.althea__hero-container .header-content img {
+    width: 35%;
+}
+
+.althea__hero-container .header-content {
+    max-width: 1240px !important;
+}
