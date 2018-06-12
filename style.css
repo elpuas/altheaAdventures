@@ -35,3 +35,7 @@
 .althea__hero-container .header-content {
     max-width: 1240px !important;
 }
+
+.althea__hero-container .header-content-container {
+    align-self: flex-start !important;
+  }
