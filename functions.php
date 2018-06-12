@@ -1,7 +1,7 @@
 <?php
 function althea_enqueue_styles() {
     wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
-    wp_enqueue_style( 'althea-google-fonts', 'https://fonts.googleapis.com/css?family=Fira+Mono:400|Open+Sans+Condensed:700|Roboto+Condensed', false );
+    wp_enqueue_style( 'althea-google-fonts', 'https://fonts.googleapis.com/css?family=Abril+Fatface', false );
 
 }
 add_action( 'wp_enqueue_scripts', 'althea_enqueue_styles' );
