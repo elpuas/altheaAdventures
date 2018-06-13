@@ -12,7 +12,7 @@
 /* Theme customization starts here
 ------------------------------------------------------- */
 :root {
-  --primary-color:#1e93c8;
+  --primary-color: #3482b2;
   --background-color: #363636;
   --font-primary: 'Abril Fatface', cursive !important;
 }
@@ -26,6 +26,7 @@
     font-family: var(--font-primary) !important;
     font-size: 4rem !important;
     letter-spacing: -2px !important;
+    margin-top: 1rem !important;
 }
 
 .althea__hero-container .header-content img {
