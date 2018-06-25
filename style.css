@@ -96,9 +96,15 @@
  * Slider
  */
 
- .et_pb_slider {
+
+div[class^=".et_pb_slide_"], div[class*=".et_pb_slide_"] {
      background-color: transparent !important;
  }
+
+ .et-pb-active-slide .et_pb_slide_description {
+ animation-name: slideWidth;
+}
+
  .et-pb-active-slide .et_pb_slide_image, .et-pb-active-slide .et_pb_slide_video {
-  animation-name: fadeLeft;
+  animation-name: slideWidth;
  }
