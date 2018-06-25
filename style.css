@@ -90,6 +90,14 @@
     color: var(--primary-color);
     font-size: 3rem;
   }
+
+  .althea__container-slider h2 {
+    color: white;
+    font-size: 3rem;
+  }
+  .althea__container-slider p {
+    color: white;
+  }
 }
 
 /*
