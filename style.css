@@ -102,9 +102,9 @@ div[class^=".et_pb_slide_"], div[class*=".et_pb_slide_"] {
  }
 
  .et-pb-active-slide .et_pb_slide_description {
- animation-name: slideWidth;
+ animation-name: fadeInLeft;
 }
 
  .et-pb-active-slide .et_pb_slide_image, .et-pb-active-slide .et_pb_slide_video {
-  animation-name: slideWidth;
+  animation-name: fadeInLeft;
  }
