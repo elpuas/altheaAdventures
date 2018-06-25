@@ -91,3 +91,14 @@
     font-size: 3rem;
   }
 }
+
+/*
+ * Slider
+ */
+
+ .et_pb_slider {
+     background-color: transparent !important;
+ }
+ .et-pb-active-slide .et_pb_slide_image, .et-pb-active-slide .et_pb_slide_video {
+  animation-name: fadeLeft;
+ }
