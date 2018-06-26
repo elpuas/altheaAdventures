@@ -116,3 +116,9 @@ div[class^=".et_pb_slide_"], div[class*=".et_pb_slide_"] {
  .et-pb-active-slide .et_pb_slide_image, .et-pb-active-slide .et_pb_slide_video {
   animation-name: fadeInLeft;
  }
+
+ @media only screen and (min-width: 768px) {
+   .et_pb_slide_description h2 {
+      font-size: 8rem !important;
+  }
+ }
