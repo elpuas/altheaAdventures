@@ -98,6 +98,11 @@
   .althea__container-slider p {
     color: white;
   }
+  p {
+    font-size: 18px !important;
+    font-weight: 200 !important;
+    letter-spacing: 1px !important;
+ }
 }
 
 /*
