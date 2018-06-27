@@ -56,7 +56,11 @@
     background-size: 25%;
 }
 
-.et_pb_section.et_pb_section_1, .et_pb_section.et_pb_section_2 {
+.et_pb_section {
+    background-color: transparent !important;
+}
+
+.et_pb_section.et_pb_section_1, .et_pb_section.et_pb_section_2, .et_pb_section.et_pb_section_3 {
     background-color: transparent !important;
 }
 
