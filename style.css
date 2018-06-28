@@ -117,6 +117,22 @@
     min-height: 100vh;
 }
 
+.althea__module-slider .et-pb-controllers {
+    bottom: 50vh;
+    left: initial!important;
+    width: 10px;
+    right: 5vw;
+}
+
+.althea__module-slider .et-pb-active-slide .et_pb_slide_description {
+animation-name: fadeTop !important;
+}
+
+.althea__module-slider .et-pb-active-slide .et_pb_slide_image, .althea__container-slider .et-pb-active-slide .et_pb_slide_video {
+ animation-name: fadeTop !important;
+}
+
+
 
 div[class^=".althea__container-slider .et_pb_slide_"], div[class*=".althea__container-slider .et_pb_slide_"] {
      background-color: transparent !important;
