@@ -124,6 +124,13 @@
     right: 5vw;
 }
 
+.althea__module-slider .et_parallax_bg {
+
+    background-position: bottom center !important;
+  }
+
+
+
 .althea__module-slider .et-pb-active-slide .et_pb_slide_description {
 animation-name: fadeTop !important;
 }
