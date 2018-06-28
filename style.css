@@ -113,28 +113,34 @@
  * Slider
  */
 
- @-webkit-keyframes slide {
-     100% { left: 0; }
- }
-
- @keyframes slide {
-     100% { left: 0; }
- }
 
 div[class^=".et_pb_slide_"], div[class*=".et_pb_slide_"] {
      background-color: transparent !important;
  }
 
  .et-pb-active-slide .et_pb_slide_description {
-  -webkit-animation: slide 0.5s forwards !important;
-  -webkit-animation-delay: 2s !important;
-  animation: slide 0.5s forwards !important;
-  animation-delay: 2s !important;
+ animation-name: fadeInLeft;
 }
 
  .et-pb-active-slide .et_pb_slide_image, .et-pb-active-slide .et_pb_slide_video {
   animation-name: fadeInLeft;
  }
+
+ /**
+  * Reservation Form
+  */
+
+  h1.et_pb_contact_main_title {
+      text-align: center;
+      font-size: 3rem;
+      margin-bottom: 25px;
+      color: var(--primary-color);
+  }
+
+  form.et_pb_contact_form input, form.et_pb_contact_form select {
+    background-color: white;
+}
+
 
  @media only screen and (min-width: 768px) {
    .et_pb_slide_description h2 {
