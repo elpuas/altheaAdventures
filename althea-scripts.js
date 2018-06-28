@@ -1,6 +1,4 @@
 jQuery(document).ready(function($){
-  // Call RWD Image Maps
-  $('img[usemap]').rwdImageMaps();
 
   $('#countryMap1').hover(function(){
     console.log('Hola soy mapa uno');
