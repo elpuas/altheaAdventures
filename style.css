@@ -174,3 +174,32 @@ div[class^=".althea__container-slider .et_pb_slide_"], div[class*=".althea__cont
       font-size: 8rem !important;
   }
  }
+
+ /**
+  * Map
+  */
+
+  a.mapping-links {
+    background-color: #ff000073;
+    width: 150px;
+    height: 150px;
+    display: block;
+    position: absolute;
+    z-index: 999;
+    border-radius: 50%;
+}
+
+ a#countryMap1 {
+    top: 50px;
+    right: 50px;
+}
+
+a#countryMap2 {
+    top: 270px;
+    left: 175px;
+}
+
+a#countryMap3 {
+    bottom: 50px;
+    right: 10px;
+}
