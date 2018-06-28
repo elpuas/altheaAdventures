@@ -113,16 +113,20 @@
  * Slider
  */
 
+.althea__module-slider .et_pb_slide {
+    min-height: 100vh;
+}
 
-div[class^=".et_pb_slide_"], div[class*=".et_pb_slide_"] {
+
+div[class^=".althea__container-slider .et_pb_slide_"], div[class*=".althea__container-slider .et_pb_slide_"] {
      background-color: transparent !important;
  }
 
- .et-pb-active-slide .et_pb_slide_description {
+ .althea__container-slider .et-pb-active-slide .et_pb_slide_description {
  animation-name: fadeInLeft;
 }
 
- .et-pb-active-slide .et_pb_slide_image, .et-pb-active-slide .et_pb_slide_video {
+ .althea__container-slider .et-pb-active-slide .et_pb_slide_image, .althea__container-slider .et-pb-active-slide .et_pb_slide_video {
   animation-name: fadeInLeft;
  }
 
