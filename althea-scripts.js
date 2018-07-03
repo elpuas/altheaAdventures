@@ -2,7 +2,7 @@ jQuery(document).ready(function($){
 
 
       // get parent div height
-      var mapHeight = $('#altheaMapArea .et_pb_code_inner').height();
+      var mapHeight = $('#altheaMapArea .et_pb_code').height();
       console.log(mapHeight + "Que Saldra");
       $('#altheaSliderItem').css("height", mapHeight);
 
