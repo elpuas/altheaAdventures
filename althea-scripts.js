@@ -1,13 +1,13 @@
 jQuery(document).ready(function($){
 
-    if ($('#altheaMapArea').lenght > 0 ) {
+    if (  $('#altheaMapArea').lenght ) {
       // get parent div height
       var mapHeight = $('#altheaMapArea').height();
       console.log(mapHeight);
 
       // Slider Hover Function
       $('#countryMap1').hover(function(){
-          
+
           console.log('Hola soy mapa uno');
       });
     }
