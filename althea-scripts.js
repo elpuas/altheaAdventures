@@ -2,12 +2,19 @@ jQuery(document).ready(function($){
 
 
       // get parent div height
-      var mapHeight = $('.image-map').height();
-      var parentChild = $('#altheaAnimation');
-      console.log(mapHeight + "Que Saldra" + parentChild);
+      var mapHeight = $('#altheaMapArea .et_pb_code_inner').height();
+      console.log(mapHeight + "Que Saldra");
+      $('#altheaSliderItem').css("height", mapHeight);
 
       // Slider Hover Function
       $('#countryMap1').hover(function(){
+
+      });
+      $('#countryMap2').hover(function(){
+
+          console.log('Hola soy mapa uno');
+      });
+      $('#countryMap3').hover(function(){
 
           console.log('Hola soy mapa uno');
       });
