@@ -204,6 +204,10 @@ a#countryMap3 {
     right: 10px;
 }
 
-#altheaAnimation {
+div#altheaAnimation {
     overflow: hidden;
+}
+
+div#altheaSliderItem:nthchild(n+2) {
+    display: none;
 }
