@@ -21,6 +21,7 @@ jQuery(document).ready(function($){
 
       // Add same height to siblings
       $('[id="altheaSliderItem"]').css("height", mapHeight);
+      $('#altheaAnimation').css("height", mapHeight);
 
       // Slider onClick Function
       $('#countryMap1').click(function(){
@@ -32,7 +33,7 @@ jQuery(document).ready(function($){
           console.log('Hola Soy countryMap2');
       });
 
-      $('#countryMap3').hover(function(){
+      $('#countryMap3').click(function(){
 
           console.log('Hola Soy countryMap3');
       });
