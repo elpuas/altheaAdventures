@@ -3,8 +3,8 @@ jQuery(document).ready(function($){
 
       // get parent div height
       var mapHeight = $('#altheaMapArea .et_pb_code').height();
-      console.log(mapHeight + "Que Saldra");
-      $('#altheaSliderItem').css("height", mapHeight);
+        console.log(mapHeight + "Que Saldra");
+        $('[id="altheaSliderItem"]').css("height", mapHeight);
 
       // Slider Hover Function
       $('#countryMap1').hover(function(){
