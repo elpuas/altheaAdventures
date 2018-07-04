@@ -17,6 +17,7 @@ jQuery(document).ready(function($){
 
       // Get element height
       var mapHeight = $('#altheaMapArea .et_pb_code').height();
+       console.log('Mi tamano es: ' . ' ' . mapHeight);
 
       // Add same height to siblings
       $('[id="altheaSliderItem"]').css("height", mapHeight);
