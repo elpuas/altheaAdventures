@@ -213,18 +213,18 @@ a.mapping-links:hover {
 }
 
 a#countryMap2 {
-    top: 270px;
-    left: 175px;
+    top: 295px;
+    left: 195px;
 }
 
 a#countryMap3 {
     bottom: 50px;
-    right: 10px;
+    right: -10px;
 }
 
 div#altheaAnimation {
     overflow: hidden;
-    padding: 25px 25px 0 0
+    padding: 25px 25px 0 0;
 }
 
 div#altheaSliderItem:not(:nth-child(1)) {
@@ -255,25 +255,33 @@ div#altheaSliderItem:not(:nth-child(1)) {
 
 @media only screen and (max-width:479px) {
 
+    div#altheaMapArea img.image-map {
+        width: 100% !important;
+    }
+
+    div#altheaAnimation {
+        padding: 20px;
+    }
+
     a.mapping-links {
         width: 75px;
         height: 50px;
     }
 
     a#countryMap1 {
-        top: 10%;
-        right: 10%;
+        top: 17%;
+        right: 16%;
     }
     
     a#countryMap2 {
-        top: 45%;
-        left: 30%;
+        top: 50%;
+        left: 40%;
     }
     
     a#countryMap3 {
         bottom: 10%;
         right: 3%;
-        width: 35px;
+        width: 60px;
         height: 50px;
     }
 }
