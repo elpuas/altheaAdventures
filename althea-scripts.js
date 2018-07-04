@@ -31,23 +31,19 @@ jQuery(document).ready(function($){
       // Slider onClick Function
       $('#countryMap1').click(function(){
           $('#altheaSliderItem:nth-child(2)').fadeIn("slow");
-          $('#altheaSliderItem:not(:nth-child(2))').fadeOut("slow");
+          $('#altheaSliderItem:not(:nth-child(2))').css("display", "none");
             console.log('Hola Soy countryMap1');
       });
 
       $('#countryMap2').click(function(){
-        $('#altheaSliderItem:nth-child(3)').css("display", "block");
-        $('#altheaSliderItem:nth-child(1)').css("display", "none");
-        $('#altheaSliderItem:nth-child(2)').css("display", "none");
-        $('#altheaSliderItem:nth-child(4)').css("display", "none");
+        $('#altheaSliderItem:nth-child(3)').fadeIn("slow");
+          $('#altheaSliderItem:not(:nth-child(3))').css("display", "none");
           console.log('Hola Soy countryMap2');
       });
 
       $('#countryMap3').click(function(){
-        $('#altheaSliderItem:nth-child(4)').css("display", "block");
-        $('#altheaSliderItem:nth-child(1)').css("display", "none");
-        $('#altheaSliderItem:nth-child(2)').css("display", "none");
-        $('#altheaSliderItem:nth-child(3)').css("display", "none");
+        $('#altheaSliderItem:nth-child(4)').fadeIn("slow");
+          $('#altheaSliderItem:not(:nth-child(4))').css("display", "none");
           console.log('Hola Soy countryMap3');
       });
     });
