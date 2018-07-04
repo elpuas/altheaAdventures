@@ -285,3 +285,28 @@ div#altheaSliderItem:not(:nth-child(1)) {
         height: 50px;
     }
 }
+
+.althea__module-slider p {
+    font-size: 1.75rem !important;
+}
+
+.et_pb_slide.et_pb_slide_1 span {
+    background-position: 10% !important;
+}
+
+.et-pb-controllers a {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    border-radius: 0;
+    background-color: transparent;
+    margin-bottom: 10px;
+    background-image: url(http://altheaadventures.elpuasdev.com/blog/wp-content/uploads/2018/07/buttons.png);
+    opacity: .75;
+}
+
+.et-pb-controllers .et-pb-active-control {
+    background-color: transparent;
+    opacity: 1;
+}
