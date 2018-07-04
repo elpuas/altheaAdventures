@@ -15,8 +15,10 @@ jQuery(document).ready(function($){
       $('#altheaMapArea').exists(function() {
         console.log('Si Existo');
 
-      // Get element height
+      // Wait for element ot Exist
       setTimeout(function(){
+      
+        // Get element height
         var mapHeight = $('#altheaMapArea .et_pb_code').height();
         console.log('Mi tamano es: ' + mapHeight);
 

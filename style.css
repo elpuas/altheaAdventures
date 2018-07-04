@@ -179,7 +179,11 @@ div[class^=".althea__container-slider .et_pb_slide_"], div[class*=".althea__cont
   * Map
   */
 
-  a.mapping-links {
+img.image-map {
+    width: 100%;
+}
+
+a.mapping-links {
     background-color: #ff000073;
     width: 150px;
     height: 150px;
@@ -187,6 +191,10 @@ div[class^=".althea__container-slider .et_pb_slide_"], div[class*=".althea__cont
     position: absolute;
     z-index: 999;
     border-radius: 50%;
+}
+
+a.mapping-links:hover {
+    background-color: rgba(255,255,255,.25);
 }
 
  a#countryMap1 {
@@ -210,4 +218,51 @@ div#altheaAnimation {
 
 div#altheaSliderItem:nthchild(n+2) {
     display: none;
+}
+
+@media only screen and (max-width: 980px) {
+
+    a.mapping-links {
+        width: 200px;
+        height: 200px;
+    }
+    a#countryMap1 {
+        top: 10%;
+        right: 15%;
+    }
+    
+    a#countryMap2 {
+        top: 45%;
+        left: 38%;
+    }
+    
+    a#countryMap3 {
+        bottom: 7.5%;
+        right: 0;
+    }
+}
+
+@media only screen and (max-width:479px) {
+
+    a.mapping-links {
+        width: 75px;
+        height: 50px;
+    }
+
+    a#countryMap1 {
+        top: 10%;
+        right: 10%;
+    }
+    
+    a#countryMap2 {
+        top: 45%;
+        left: 30%;
+    }
+    
+    a#countryMap3 {
+        bottom: 10%;
+        right: 3%;
+        width: 35px;
+        height: 50px;
+    }
 }
