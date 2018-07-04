@@ -30,10 +30,7 @@ jQuery(document).ready(function($){
 
       // Slider onClick Function
       $('#countryMap1').click(function(){
-          $('#altheaSliderItem:nth-child(2)').css("display", "none").fadeIn("slow");
-          $('#altheaSliderItem:nth-child(1)').css("display", "none");
-          $('#altheaSliderItem:nth-child(3)').css("display", "none");
-          $('#altheaSliderItem:nth-child(4)').css("display", "none");
+          $('#altheaSliderItem:nth-child(2)').fadeIn("slow");
             console.log('Hola Soy countryMap1');
       });
 
