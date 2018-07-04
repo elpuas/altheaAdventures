@@ -215,11 +215,9 @@ div#altheaAnimation {
     overflow: hidden;
 }
 
-div#altheaSliderItem:nthchild(n+2) {
+div#altheaSliderItem:not(:nth-child(1)) {
     display: none;
-    transition: opacity 1s ease-out;
-    opacity: 0; 
-}
+} 
 
 @media only screen and (max-width: 980px) {
 
