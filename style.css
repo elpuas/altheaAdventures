@@ -224,7 +224,7 @@ a#countryMap3 {
 
 div#altheaAnimation {
     overflow: hidden;
-    padding-right: 50px;
+    padding: 25px 25px 0 0
 }
 
 div#altheaSliderItem:not(:nth-child(1)) {
