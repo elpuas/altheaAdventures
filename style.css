@@ -218,6 +218,8 @@ div#altheaAnimation {
 
 div#altheaSliderItem:nthchild(n+2) {
     display: none;
+    transition: opacity 1s ease-out;
+    opacity: 0; 
 }
 
 @media only screen and (max-width: 980px) {
