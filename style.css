@@ -179,8 +179,19 @@ div[class^=".althea__container-slider .et_pb_slide_"], div[class*=".althea__cont
   * Map
   */
 
+.althea_map_location {
+    padding: 0 !important;
+}
+
 img.image-map {
-    width: 100%;
+    width: 100%
+}
+
+
+div#altheaMapArea img.image-map {
+    width: 102% !important;
+    display: block;
+    max-width: initial !important;
 }
 
 a.mapping-links {
@@ -213,6 +224,7 @@ a#countryMap3 {
 
 div#altheaAnimation {
     overflow: hidden;
+    padding-right: 50px;
 }
 
 div#altheaSliderItem:not(:nth-child(1)) {
