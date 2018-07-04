@@ -16,12 +16,15 @@ jQuery(document).ready(function($){
         console.log('Si Existo');
 
       // Get element height
-      var mapHeight = $('#altheaMapArea .et_pb_code').height();
-       console.log('Mi tamano es: ' + mapHeight);
+      setTimeout(function(){
+        var mapHeight = $('#altheaMapArea .et_pb_code').height();
+        console.log('Mi tamano es: ' + mapHeight);
 
       // Add same height to siblings
-      $('[id="altheaSliderItem"]').css("height", mapHeight);
-      $('#altheaAnimation').css("height", mapHeight);
+        $('[id="altheaSliderItem"]').css("height", mapHeight);
+        $('#altheaAnimation').css("height", mapHeight);
+
+        }, 3000);
 
       // Slider onClick Function
       $('#countryMap1').click(function(){
