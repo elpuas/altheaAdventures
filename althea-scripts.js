@@ -31,7 +31,7 @@ jQuery(document).ready(function($){
       // Slider onClick Function
       $('#countryMap1').click(function(){
           $('#altheaSliderItem:nth-child(2)').fadeIn("slow");
-          $('#altheaSliderItem:not(:nth-child(2))').css("display", "none");
+          $('#altheaSliderItem:not(:nth-child(2))').css("display", "none").fadeOut("slow");
             console.log('Hola Soy countryMap1');
       });
 
