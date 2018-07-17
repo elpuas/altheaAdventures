@@ -316,3 +316,7 @@ div#altheaSliderItem:not(:nth-child(1)) {
     width: 100%;
     max-width: initial;
 }
+
+.et_pb_slider .et_pb_container.clearfix {
+    height: 200px !important;
+}
