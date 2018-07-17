@@ -208,18 +208,18 @@ a.mapping-links:hover {
 }
 
  a#countryMap1 {
-    top: 50px;
-    right: 50px;
+    top: 100px;
+    right: 100px;
 }
 
 a#countryMap2 {
-    top: 295px;
-    left: 195px;
+    top: 395px;
+    left: 270px;
 }
 
 a#countryMap3 {
-    bottom: 50px;
-    right: -10px;
+    bottom: 80px;
+    right: 0px;
 }
 
 div#altheaAnimation {
@@ -326,4 +326,16 @@ div#altheaSliderItem:not(:nth-child(1)) {
 .et_pb_slide_description, .et_pb_slider_fullwidth_off .et_pb_slide_description {
     padding: 10px 8% !important;
 }
+}
+
+button.et_pb_contact_submit.et_pb_button {
+    background-color: #2e7bac;
+    border-radius: 4px;
+    border: none;
+    color: white;
+}
+
+.althea__container-slider--item h2 {
+    font-size: 2.5rem;
+    color: #98d1dd;
 }
