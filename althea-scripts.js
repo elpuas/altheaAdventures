@@ -15,7 +15,7 @@ jQuery(document).ready(function($){
       $('#altheaMapArea').exists(function() {
         console.log('Si Existo');
 
-      // Wait for element ot Exist
+      // Wait for element to Exist
       setTimeout(function(){
       
         // Get element height
