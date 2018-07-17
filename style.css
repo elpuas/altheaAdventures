@@ -317,6 +317,13 @@ div#altheaSliderItem:not(:nth-child(1)) {
     max-width: initial;
 }
 
+@media only screen and (min-width: 768px) {
+
 .et_pb_slider .et_pb_container.clearfix {
     height: 200px !important;
+}
+
+.et_pb_slide_description, .et_pb_slider_fullwidth_off .et_pb_slide_description {
+    padding: 10px 8% !important;
+}
 }
