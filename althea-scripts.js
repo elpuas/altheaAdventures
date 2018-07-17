@@ -48,6 +48,11 @@ jQuery(document).ready(function($){
       });
     });
 
+    // using on
+$('et_pb_section_0').on('mousewheel', function(event) {
+  console.log(event.deltaX, event.deltaY, event.deltaFactor);
+});
+
 
 
  // Branding
