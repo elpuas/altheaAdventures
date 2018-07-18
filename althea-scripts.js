@@ -49,8 +49,12 @@ jQuery(document).ready(function($){
     });
 
     // using on
-$('.et_pb_section_0').on('mousewheel', function(event) {
-  console.log(event.deltaX, event.deltaY, event.deltaFactor);
+
+$('.et_pb_section_0').bind('mousewheel', function(event) {
+  event.preventDefault();
+  var scrollTop = this.scrollTop;
+  this.scrollTop = (scrollTop + ((event.deltaY * event.deltaFactor) * -1));
+  console.log(event.deltaY, event.deltaFactor, event.originalEvent.deltaMode, event.originalEvent.wheelDelta);
 });
 
 
