@@ -310,3 +310,9 @@ div#altheaSliderItem:not(:nth-child(1)) {
     background-color: transparent;
     opacity: 1;
 }
+
+.althea_map_location {
+    padding: 0 !important;
+    width: 100%;
+    max-width: initial;
+}
