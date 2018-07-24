@@ -357,10 +357,19 @@ button.et_pb_contact_submit.et_pb_button {
 }
 .althea__gform1-container form#gform_1 li {
     margin: 0;
+    line-height: initial;
 }
 
 .et_pb_contact_select {
     background: transparent;
+}
+
+input.datepicker {
+    width: 95% !important;
+}
+
+.instruction {
+    display: none;
 }
 
 
