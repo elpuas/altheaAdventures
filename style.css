@@ -339,3 +339,22 @@ button.et_pb_contact_submit.et_pb_button {
     font-size: 2.5rem;
     color: #98d1dd;
 }
+
+/* Gravity Forms Styles */
+
+.althea__gform1-container form#gform_1 li label {
+    text-indent: -9999px;
+    height: 1px;
+    padding: 0;
+    margin: 0;
+}
+
+.althea__gform1-container form#gform_1 li input {
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding: 14px;
+}
+.althea__gform1-container form#gform_1 li {
+    margin: 0;
+}
