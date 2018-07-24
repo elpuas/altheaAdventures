@@ -57,30 +57,6 @@ $('.et_pb_section_0').bind('mousewheel', function(event) {
   console.log(event.deltaY, event.deltaFactor, event.originalEvent.deltaMode, event.originalEvent.wheelDelta);
 });
 
-// the speed of the scrolling transition (ms)
-var scrollTime = 500;
- 
-// the amount of time before the scrolling begins (ms)
-var scrollDelay = 2000;
- 
-// change the "revapi1" part with your slider's ID
-// https://tinyurl.com/zb6hzpc
-var api = revapi2.on('revolution.slide.onchange', function(e, data) {
- 
-    if(data.slideIndex === api.revmaxslide()) {
- 
-        setTimeout(function() {
- 
-            var bounds = api[0].getBoundingClientRect();
-            jQuery('html, body').animate({
-                scrollTop: window.pageYOffset + bounds.top + bounds.height
-            }, scrollTime);
- 
-        }, scrollDelay);
-    }
-});
-
-
 
  // Branding
  console.log("%c Made with  💖 and a lot of  ☕ by el.puas | https://elpuas.com ", "color:#fff;background:#000;");
