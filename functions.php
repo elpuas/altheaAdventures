@@ -12,7 +12,7 @@ add_action( 'wp_enqueue_scripts', 'althea_scripts' );
 function althea_scripts() {
 	// wp_enqueue_script( 'areamap-script', get_stylesheet_directory_uri() . '/vendor/jquery.rwdImageMaps.min.js', array( 'jquery' ));
 	wp_enqueue_script( 'mousewheel-script', get_stylesheet_directory_uri() . '/vendor/jquery.mousewheel.min.js', array( 'jquery' ));
-  wp_enqueue_script( 'althea-script', get_stylesheet_directory_uri() . '/althea-scripts.js', array( 'jquery' ));
+  wp_enqueue_script( 'althea-script', get_stylesheet_directory_uri() . '/althea-scripts.js', true);
 }
 
 
