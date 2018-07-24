@@ -349,12 +349,18 @@ button.et_pb_contact_submit.et_pb_button {
     margin: 0;
 }
 
-.althea__gform1-container form#gform_1 li input {
+.althea__gform1-container form#gform_1 li input, .althea__gform1-container .ginput_container.ginput_container_select select {
     height: 50px;
     border: none;
     border-radius: 5px;
-    padding: 14px;
+    padding: 15px;
 }
 .althea__gform1-container form#gform_1 li {
     margin: 0;
 }
+
+.et_pb_contact_select {
+    background: transparent;
+}
+
+
