@@ -342,6 +342,11 @@ button.et_pb_contact_submit.et_pb_button {
 
 /* Gravity Forms Styles */
 
+form#gform_1 {
+    margin-top: 0 !important;
+    padding-top: 0 !important; 
+}
+
 .althea__gform1-container form#gform_1 li label {
     text-indent: -9999px;
     height: 1px;
@@ -358,6 +363,8 @@ button.et_pb_contact_submit.et_pb_button {
 .althea__gform1-container form#gform_1 li {
     margin: 0;
     line-height: initial;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
 }
 
 .et_pb_contact_select {
@@ -370,6 +377,20 @@ input.datepicker {
 
 .instruction {
     display: none;
+}
+
+.gform_page_footer .button {
+    border: none !important;
+    padding: 10px 15px;
+    border-radius: 4px;
+    background-color: var(--primary-color) !important;
+    color: white !important;
+}
+
+.gform_page_footer {
+    margin: 0 !important;
+    border-top: none !important;
+    text-align: right;
 }
 
 
