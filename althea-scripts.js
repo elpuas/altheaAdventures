@@ -53,7 +53,7 @@ jQuery(document).ready(function($){
 $('.et_pb_section_0').bind('mousewheel', function(event) {
   event.preventDefault();
   var scrollTop = this.scrollTop;
-  this.scrollTop = (scrollTop + ((event.deltaY * event.deltaFactor) * -1));
+  this.scrollTop = (scrollTop + ((event.deltaY * event.deltaFactor) * 10));
   console.log(event.deltaY, event.deltaFactor, event.originalEvent.deltaMode, event.originalEvent.wheelDelta);
 });
 

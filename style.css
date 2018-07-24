@@ -367,19 +367,19 @@ form#gform_1 {
     padding-bottom: 0 !important;
 }
 
-.et_pb_contact_select {
+.althea__gform1-container .et_pb_contact_select {
     background: transparent;
 }
 
-input.datepicker {
+.althea__gform1-container input.datepicker {
     width: 95% !important;
 }
 
-.instruction {
+.althea__gform1-container .instruction {
     display: none;
 }
 
-.gform_page_footer .button {
+.althea__gform1-container .gform_page_footer .button {
     border: none !important;
     padding: 10px 15px;
     border-radius: 4px;
@@ -387,10 +387,13 @@ input.datepicker {
     color: white !important;
 }
 
-.gform_page_footer {
+.althea__gform1-container .gform_page_footer {
     margin: 0 !important;
     border-top: none !important;
     text-align: right;
 }
 
+.althea__gform1-container .gform_wrapper {
+    margin-top: -50px !important;
+}
 
