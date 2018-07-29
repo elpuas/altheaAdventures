@@ -49,14 +49,14 @@ jQuery(document).ready(function($){
     });
 
     // using on
-
+/*
 $('.et_pb_section_0').bind('mousewheel', function(event) {
   event.preventDefault();
   var scrollTop = this.scrollTop;
   this.scrollTop = (scrollTop + ((event.deltaY * event.deltaFactor) * 10));
   console.log(event.deltaY, event.deltaFactor, event.originalEvent.deltaMode, event.originalEvent.wheelDelta);
 });
-
+*/
 
  // Branding
  console.log("%c Made with  💖 and a lot of  ☕ by el.puas | https://elpuas.com ", "color:#fff;background:#000;");
