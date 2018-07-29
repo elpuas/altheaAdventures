@@ -408,3 +408,7 @@ form#gform_1 {
     margin-top: 1rem !important;
 }
 
+.althea__slider-text {
+    text-align: center !important;
+    max-width: 80vw !important;
+}

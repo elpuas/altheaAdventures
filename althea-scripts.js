@@ -56,7 +56,7 @@ $('.et_pb_section_0').bind('mousewheel', function(event) {
   this.scrollTop = (scrollTop + ((event.deltaY * event.deltaFactor) * 10));
   console.log(event.deltaY, event.deltaFactor, event.originalEvent.deltaMode, event.originalEvent.wheelDelta);
 });
-*/
+*/  
 
  // Branding
  console.log("%c Made with  💖 and a lot of  ☕ by el.puas | https://elpuas.com ", "color:#fff;background:#000;");
